@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 12px;
+    width: 100%;
+}
+.data{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    padding: 8px;
+     width: 100%;
+     /* border-bottom: 2px solid black; */
+     margin: 6px 12px;
+     left: 20%;
+     /* height: 50px; */
+    }
+    
+.box input{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* left: 30%; */
+    padding: 10px 11px;
+    background: none; 
+    width: 80%;
+    border: none;
+    outline: none;
+    margin: 10px ;
+    font-size: 20px;
+    color: blueviolet;
+    left: 20%;
+    background-color: rgb(203 159 221);
+    /* height: 50px; */
+}
+
+#pro{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    margin: 22px;
+    padding: 3px;
+
+
+}
+.photo{
+    align-items: center;
+    width: 50px;
+    height: 30px;
+}
+.info{
+    margin: 255px;
+    background-color: red;
+}
+.container h1{
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    margin-bottom: 20px;
+
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    /* width: 10%; */
+    padding: 7px 12px;
+    font-size: 15px;
+    height: 35px;
+    margin: 55px 0px;
+    border-radius: 10px;
+    background-color:#4CAF50;
+    color: rgb(0, 0, 0);
+    background: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    color: rgb(147, 148, 226);
+    background: white;
+    opacity: 0.8;
+}
+
+.box i{
+    padding: 0px 20px;
+    color: #ffffff;
+    width: 45px;
+    align-items: center;
+
+}
